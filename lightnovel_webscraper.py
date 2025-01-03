@@ -18,9 +18,6 @@ split_url = urlsplit(current_url)
 
 base_url = f'{split_url.scheme}://{split_url.netloc}'
 
-
-print(f' \n > Base URL is {base_url}.')
-
 all_content = ''
 
 #add number of web pages you want scraped
