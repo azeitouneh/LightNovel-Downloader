@@ -70,8 +70,8 @@ pdf.set_left_margin(10)
 pdf.set_right_margin(10)
 pdf.set_top_margin(10)
 
-
-pdf.add_font('DejaVu', '', r"C:\Users\azeit\AppData\Local\Programs\Python\Python313\Lib\site-packages\fpdf\fonts\DejaVuSans.ttf", uni=True)
+                                    #you might need to fix the path found here
+pdf.add_font('DejaVu', '', r"C:\Users\AppData\Local\Programs\Python\Python313\Lib\site-packages\fpdf\fonts\DejaVuSans.ttf", uni=True)
 
 pdf.set_font('DejaVu', '', 16)
 
