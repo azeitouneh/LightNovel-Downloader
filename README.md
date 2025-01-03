@@ -10,3 +10,6 @@ I faced issues with the font for the pdf compilation part. I will link the font 
 
 https://dejavu-fonts.github.io/
 
+the modules you might have to install if you have already are:
+fpdf
+beautifulsoup
